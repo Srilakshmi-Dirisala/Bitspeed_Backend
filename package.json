@@ -1,7 +1,6 @@
 {
   "name": "bitespeed_backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,6 @@
     "router": "^1.3.8",
     "server": "^1.0.38",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "description": ""
 }

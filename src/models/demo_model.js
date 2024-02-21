@@ -12,7 +12,7 @@ const identifyModel = async (email, phoneNumber) => {
             WHERE email = ? OR phoneNumber = ?
         `;
 
-       console.log("sql",sql);
+      
        const contacts=await new Promise((resolve,reject)=>{
         db.all(sql,[email,phoneNumber],(err,rows)=>{
             if(err){
